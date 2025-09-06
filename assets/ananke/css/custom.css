@@ -89,8 +89,7 @@ header::after {
 }
 
 img[src="/img/logo-transparent.png"] {
-  width: 190% !important;
-  max-width: 9.5rem !important;
+  width: 220% !important;
   height: auto !important;
 }
 
