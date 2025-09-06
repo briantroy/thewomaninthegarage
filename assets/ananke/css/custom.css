@@ -103,3 +103,7 @@ header[style*="background-image"] {
   background-size: cover !important; /* Ensure it covers the area */
   min-height: 300px; /* Ensure a minimum height for the header to display more of the image */
 }
+
+.footer-text-black {
+  color: #000 !important;
+}
