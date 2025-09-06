@@ -1,0 +1,106 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  color: #ff0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff0000;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.red {
+    color: #ff0000 !important;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+}
+
+header a {
+  color: #ff0000;
+}
+
+header .white-90 {
+  color: #ff0000 !important;
+}
+
+header a.white-90 {
+  color: #ff0000 !important;
+}
+
+/* Header styles */
+header {
+  background-color: #fff; /* White background for header */
+}
+
+header a,
+header nav a,
+header .link,
+header .white-90 { /* Adjust text color for links and other elements in header */
+  color: #000 !important; /* Black text for header */
+}
+
+/* Main content styles */
+main,
+.content {
+  background-color: #000 !important; /* Black background for main content */
+  color: #fff !important; /* White text for main content */
+}
+
+main p,
+main span,
+main div,
+.content p,
+.content span,
+.content div {
+  color: #fff !important;
+}
+
+/* Ensure headings and links in main content are visible */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  color: #ff0000; /* Red headings in main content */
+}
+
+main a {
+  color: #ff0000; /* Red links in main content */
+}
+
+header {
+  background-color: #fff !important; /* Ensure solid white background */
+  opacity: 1 !important; /* Ensure full opacity */
+}
+
+header::before,
+header::after {
+  content: none !important; /* Remove any pseudo-elements that might be overlays */
+}
+
+img[src="/img/logo-transparent.png"] {
+  width: 190% !important;
+  max-width: 9.5rem !important;
+  height: auto !important;
+}
+
+/* Ensure navigation menu text is pure white */
+nav a.white-90 {
+  color: #fff !important;
+}
+
+header[style*="background-image"] {
+  background-position: center center !important; /* Center the background image */
+  background-size: cover !important; /* Ensure it covers the area */
+  min-height: 300px; /* Ensure a minimum height for the header to display more of the image */
+}

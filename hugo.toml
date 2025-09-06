@@ -1,0 +1,34 @@
+baseURL = 'https://thewomaninthegarage.com/'
+languageCode = 'en-us'
+title = 'The Woman in the Garage'
+theme = 'ananke'
+
+[params]
+  custom_css = ["custom.css"]
+  site_logo = "img/logo-transparent.png"
+  background_color_class = "bg-white"
+
+[taxonomies]
+  author = "authors"
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "Episodes"
+  url = "/podcasts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contributors"
+  url = "/authors/"
+  weight = 4

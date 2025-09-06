@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main class="pa3 pa4-ns">
+    <header>
+      <h1 class="f1 athelas mt3 mb1">{{ .Title }}</h1>
+    </header>
+    <section class="cf pa2">
+      {{ range .Data.Terms.ByCount }}
+        <div class="fl w-100 w-50-ns pa2">
+          <a href="{{ .Page.RelPermalink }}" class="db link dim">
+            <h2 class="f3 athelas mt0 mb1">{{ .Page.Title }}</h2>
+            <p class="f6 measure lh-copy">
+              {{ .Count }} Posts
+            </p>
+          </a>
+        </div>
+      {{ end }}
+    </section>
+  </main>
+{{ end }}

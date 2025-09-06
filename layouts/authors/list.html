@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <main class="pa3 pa4-ns">
+    <header>
+      <h1 class="f1 athelas mt3 mb1">{{ .Title }}</h1>
+      <p>{{ .Content }}</p>
+    </header>
+    <section class="cf pa2">
+      {{ range .Paginator.Pages }}
+        <div class="fl w-100 w-50-ns pa2">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    {{ .Render "pagination" }}
+  </main>
+{{ end }}
