@@ -1,6 +1,6 @@
 baseURL = 'https://thewomaninthegarage.com/'
 languageCode = 'en-us'
-title = 'The Woman in the Garage'
+title = 'Woman in the Garage'
 theme = 'ananke'
 
 [params]
