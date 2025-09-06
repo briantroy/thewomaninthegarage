@@ -44,6 +44,7 @@ frontend:
 
         # https://github.com/gohugoio/hugo/issues/9810
         - git config --add core.quotepath false
+        - git submodule update --init --recursive
     build:
       commands:
         - hugo --gc --minify
