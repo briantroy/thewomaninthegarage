@@ -46,7 +46,7 @@ frontend:
         - git config --add core.quotepath false
     build:
       commands:
-````````- sass input.scss output.css --no-source-map --style=compressed
+        - sass input.scss output.css --no-source-map --style=compressed
         - hugo --gc --minify
   artifacts:
     baseDirectory: public
