@@ -1,7 +1,8 @@
 +++
 date = '2025-09-06T10:22:52-06:00'
-draft = true
+draft = false
 title = 'My First Post'
 authors = ["Jane Doe"]
 featured_image = "/images/banner.png"
 +++
+Hi, here is some random content.
