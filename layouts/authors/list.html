@@ -2,11 +2,10 @@
   {{ partial "page-header.html" . }}
 {{ end }}
 {{ define "main" }}
-  <main class="pa3 pa4-ns">
-    <header>
-      <h1 class="f1 athelas mt3 mb1">{{ .Title }}</h1>
-      <p>{{ .Content }}</p>
-    </header>
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ .Param "text_color" | default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
     <section class="cf pa2">
       {{ range .Paginator.Pages }}
         <div class="fl w-100 w-50-ns pa2">
@@ -15,5 +14,5 @@
       {{ end }}
     </section>
     {{ .Render "pagination" }}
-  </main>
+  </article>
 {{ end }}
