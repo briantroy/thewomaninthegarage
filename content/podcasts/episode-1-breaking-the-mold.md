@@ -2,7 +2,7 @@
 title: "Episode 1: Breaking the Mold"
 date: 2025-09-06T10:28:20-06:00
 draft: false
-authors: ["John Smith"]
+authors: ["Isabel Roy"]
 featured_image: "/images/banner-800x400.png"
 ---
 
