@@ -1,4 +1,4 @@
 ---
 title: "Episodes"
-featured_image: "/images/banner-800x400.png"
+featured_image: "/images/IMG_0680.jpeg"
 ---
