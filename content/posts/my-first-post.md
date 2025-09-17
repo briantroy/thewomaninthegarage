@@ -3,7 +3,7 @@ date = '2025-09-06T10:22:52-06:00'
 draft = false
 title = 'Breaking In'
 authors = ["Isabel Roy"]
-featured_image = "/images/banner-800x400.png"
+featured_image = "/images/IMG_0680.jpeg"
 +++
 I’ve loved motorsports since I was a kid. My dad lazily turned on Formula 1 one morning when football wasn’t on, and from then on I was hooked. I don't come from a motorsports family. I didn’t grow up in a garage with a wrench in my hand. I grew up at school, loving math, and knowing I wanted to be an engineer. My love for motorsports came later and that’s when everything clicked. I haven't had all the opportunities people around me have had, this isn't my world. But one thing I’ve learned in the last year is that perseverance beats luck every time.
 
