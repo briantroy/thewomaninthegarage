@@ -5,7 +5,7 @@ theme = 'ananke'
 
 [params]
   custom_css = ["custom.css"]
-  site_logo = "img/852E5D23-7B77-4084-972F-A10863D279BB.jpeg"
+  site_logo = "images/852E5D23-7B77-4084-972F-A10863D279BB.jpeg"
   background_color_class = "bg-white"
   featured_image = "/images/IMG_0680.jpeg"
 
