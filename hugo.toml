@@ -5,9 +5,9 @@ theme = 'ananke'
 
 [params]
   custom_css = ["custom.css"]
-  site_logo = "img/logo-transparent.png"
+  site_logo = "img/852E5D23-7B77-4084-972F-A10863D279BB.jpeg"
   background_color_class = "bg-white"
-  featured_image = "/images/banner-800x400.png"
+  featured_image = "/images/IMG_0680.jpeg"
 
 [taxonomies]
   author = "authors"
